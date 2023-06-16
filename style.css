@@ -2,3 +2,13 @@ html {
   background-color: #f129ed;
   font-family: Calibri, serif;
 }
+
+#banner {
+  background-color: #efa23f;
+  width: 80%;
+}
+
+#not_banner {
+  background-color: #ffffff;
+  width: 20%;
+}
