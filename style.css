@@ -5,9 +5,14 @@ html {
 
 body {
   display: grid;
-      grid-template-areas:
-        "banner"
-        "notbanner";
+  grid-template-columns: 1fr;
+  grid-template-rows: 8fr 2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  grid-template-areas:
+    "banner"
+    "notbanner";
 }
 
 #banner {
