@@ -2,12 +2,13 @@ html {
   background-color: #f129ed;
   font-family: Calibri, serif;
   width: 100%;
+  height: 100%;
 }
 
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 8fr 2fr;
+  grid-template-rows: 80% 20%;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   grid-template-areas:
@@ -21,10 +22,12 @@ body {
   background-image: url("https://cdn.discordapp.com/banners/218977195375329281/d2b43fd74d92a03529813628a872e07f.png");
   background-size: cover;
   background-color: #efa23f;
+  height: 100vh;
 }
 
 #not_banner {
   grid-column: 2 / 3;
   grid-area: notbanner;
   background-color: #ffffff;
+  height: 100vh;
 }
