@@ -7,7 +7,7 @@ html {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 8fr 2fr;
+  grid-template-rows: 8fr 2fr auto;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   grid-template-areas:
@@ -17,6 +17,7 @@ body {
 
 #banner {
   grid-area: banner;
+  object-fit: cover;
   background-color: #efa23f;
 }
 
