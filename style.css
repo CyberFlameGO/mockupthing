@@ -1,6 +1,7 @@
 html {
   background-color: #f129ed;
   font-family: Calibri, serif;
+  width: 100%;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
   grid-template-rows: 8fr 2fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-
   grid-template-areas:
     "banner"
     "notbanner";
