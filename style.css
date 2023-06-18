@@ -18,11 +18,9 @@ body {
 #banner {
   grid-area: banner;
   background-color: #efa23f;
-  width: 80%;
 }
 
 #not_banner {
   grid-area: notbanner;
   background-color: #ffffff;
-  width: 20%;
 }
