@@ -22,7 +22,7 @@ body {
   background-image: url("https://cdn.discordapp.com/banners/218977195375329281/d2b43fd74d92a03529813628a872e07f.png");
   background-size: cover;
   background-color: #efa23f;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 #not_banner {
