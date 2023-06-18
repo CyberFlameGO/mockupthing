@@ -3,12 +3,26 @@ html {
   font-family: Calibri, serif;
 }
 
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 8fr 2fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  grid-template-areas:
+    "banner"
+    "notbanner";
+}
+
 #banner {
+  grid-area: banner;
   background-color: #efa23f;
   width: 80%;
 }
 
 #not_banner {
+  grid-area: notbanner;
   background-color: #ffffff;
   width: 20%;
 }
